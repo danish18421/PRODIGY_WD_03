@@ -4,12 +4,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: black;
+    background-color: white;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 h1{
-    color: white;
+    color: black;
 }
 .container {
     text-align: center;
@@ -29,9 +29,9 @@ h1{
     align-items: center;
     width: 100px;
     height: 100px;
-    border-radius: 20px;
-    background-color: #ffffff;
-    border: 1px solid #24bdff;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid black;
     font-size: 2em;
     cursor: pointer;
 }
@@ -54,7 +54,7 @@ button {
 .winning-cell {
     background-color: rgb(13, 45, 39);
     color: #24bdff;
-    transform: rotate(360deg);
+/*     transform: rotate(360deg); */
     transition: 2s;
 }
 
